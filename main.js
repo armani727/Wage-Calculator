@@ -12,5 +12,5 @@ function btnclicked() {
   let income = money * time + overtime * 1.5 * money;
 
   //    output
-  document.getElementById("output").innerHTML = income;
+  document.getElementById("output").innerHTML = income.toFixed(2);
 }
